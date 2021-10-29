@@ -1,7 +1,7 @@
 {
   "name": "with-right",
   "description": "copy, selection and right-click with ©copyright",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "module": "es/index.js",
   "typings": "es/index.d.ts",

@@ -2,6 +2,7 @@
   "name": "@example/base",
   "private": true,
   "dependencies": {
-    "with-right": "^0.0.1"
-  }
+    "with-right": "^1.0.0"
+  },
+  "version": "1.0.0"
 }
