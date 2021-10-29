@@ -1,0 +1,7 @@
+{
+  "name": "@example/base",
+  "private": true,
+  "dependencies": {
+    "with-right": "^0.0.1"
+  }
+}

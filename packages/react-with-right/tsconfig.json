@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": "./",
+    "sourceRoot": "src",
+    "outDir": "lib",
+    "module": "esnext",
+    "target": "esnext"
+  },
+  "exclude": [
+    "lib",
+    "es"
+  ]
+}

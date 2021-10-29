@@ -1,0 +1,43 @@
+{
+  "name": "with-right",
+  "description": "copy, selection and right-click with ©copyright",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "es/index.d.ts",
+  "unpkg": "dist/index.min.js",
+  "umd:main": "dist/index.min.js",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "es",
+    "lib",
+    "src",
+    "package.json"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist es lib",
+    "prebuild": "npm run clean",
+    "build:umd": "webpack build --config ../../scripts/webpack/index.ts --progress --color --env source=packages",
+    "build:es": "tsc --module esnext --target es5 --outDir es",
+    "build:lib": "tsc --module commonjs --target es5 --outDir lib",
+    "build": "npm-run-all --serial build:*",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeliex/with-right.git"
+  },
+  "keywords": [
+    "copy",
+    "copyright",
+    "clipboard",
+    "cut"
+  ],
+  "author": "yeliex <yeliex@yeliex.com>",
+  "license": "LGPL-2.1-or-later",
+  "bugs": {
+    "url": "https://github.com/yeliex/with-right/issues"
+  },
+  "homepage": "https://github.com/yeliex/with-right#readme"
+}
