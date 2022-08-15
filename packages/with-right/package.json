@@ -9,11 +9,10 @@
   "umd:main": "dist/index.min.js",
   "sideEffects": false,
   "files": [
-    "dist",
-    "es",
-    "lib",
-    "src",
-    "package.json"
+    "dist/*",
+    "es/*",
+    "lib/*",
+    "src/*"
   ],
   "scripts": {
     "clean": "rm -rf dist es lib",
