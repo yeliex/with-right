@@ -1,7 +1,7 @@
 {
   "name": "react-with-right",
   "description": "copy, cut, selection and right-click with ©copyright for react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "module": "es/index.js",
   "typings": "es/index.d.ts",
@@ -32,6 +32,6 @@
     "react-dom": ">=16.0.0"
   },
   "dependencies": {
-    "with-right": "^1.0.0"
+    "with-right": "^1.0.1"
   }
 }
