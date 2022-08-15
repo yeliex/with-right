@@ -152,7 +152,7 @@ class WithRight {
         const [plain, rich] = this.transformCopyRight(...selections);
 
         this.options.onCopy && this.options.onCopy({ plain, rich }, e);
-        console.log(rich);
+
         if (e.defaultPrevented) {
             return;
         }
